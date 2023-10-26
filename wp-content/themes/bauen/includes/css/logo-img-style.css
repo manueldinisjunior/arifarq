@@ -1,0 +1,12 @@
+/* ======= Logo style  ======= */
+body .bauen-header.scrolled .bauen-logo-wrap .bauen-logo h2, 
+body .navbar.nav-scroll .logo-wrapper .logo h2 {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+	body .bauen-header .bauen-logo-wrap .bauen-logo h2, 
+	body .navbar .logo-wrapper .logo h2,
+	body .logo-wrapper .logo h2 {
+		display: none;
+	}
+}
